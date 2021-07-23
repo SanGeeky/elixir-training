@@ -1,0 +1,12 @@
+Hi, <%= name %>
+
+<%= if true do %>
+  A truthful statement
+<% else %>
+  A false statement
+<% end %>
+
+<%# <% Elixir expression - inline with output %> %>
+<%# <%= Elixir expression - replace with result %> %>
+<%# <%% EEx quotation - returns the contents inside %> %>
+<%# Comments - they are discarded from source %>

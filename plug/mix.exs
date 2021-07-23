@@ -23,6 +23,7 @@ defmodule Example.MixProject do
   def deps do
     [
       {:plug_cowboy, "~> 2.0"},
+      {:dialyxir, "~> 0.4", only: [:dev]},
     ]
   end
 end
